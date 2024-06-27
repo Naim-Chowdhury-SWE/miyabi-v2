@@ -1,0 +1,58 @@
+.carousel-wrapper {
+    width: 90%;
+    margin-inline: auto;
+    padding-top: 1em;
+    position: relative;
+    height: 140px;
+    margin-top: 5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0,0,0,1) 90%,
+        rgba(0,0,0,0)
+    );
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+.box {
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.box1 {
+    animation-delay: calc(60s / 8 * (8 - 1) * -1);
+}
+.box2 {
+    animation-delay: calc(60s / 8 * (8 - 2) * -1);
+}
+.box3 {
+    animation-delay: calc(60s / 8 * (8 - 3) * -1);
+}
+.box4 {
+    animation-delay: calc(60s / 8 * (8 - 4) * -1);
+}
+.box5 {
+    animation-delay: calc(60s / 8 * (8 - 5) * -1);
+}
+.box6 {
+    animation-delay: calc(60s / 8 * (8 - 6) * -1);
+}
+.box7 {
+    animation-delay: calc(60s / 8 * (8 - 7) * -1);
+}
+.box8 {
+    animation-delay: calc(60s / 8 * (8 - 8) * -1);
+}
