@@ -1,0 +1,7 @@
+{
+  "title": "Bienvenido a React y react-i18next",
+  "description": {
+    "part1": "Intentar Parte 1",
+    "part2": "Intentar Parte 2, Lenguas diferentes"
+  }
+}
