@@ -16,7 +16,7 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-    <div className="flex gap-4 justify-center pt-24">
+    <div className="flex gap-4 justify-end pt-24 mx-8">
       <Select
         options={options}
         defaultValue={options.find((option) => option.value === "sv")}
@@ -44,12 +44,15 @@ const LanguageSwitcher: React.FC = () => {
             fontFamily: '"Cormorant Upright", serif',
             fontWeight: "bold",
             fontSize: "20px",
+            paddingLeft: "5px",
+            paddingRight: "5px",
           }),
           option: (base, { isFocused }) => ({
             ...base,
-            backgroundColor: isFocused ? "red" : "darkred",
-            color: isFocused ? "white" : "white",
-            "&:hover": { backgroundColor: "red", color: "white" },
+            borderRadius: "5px",
+            backgroundColor: isFocused ? "black" : "darkred",
+            color: isFocused ? "white" : "black",
+            "&:hover": { backgroundColor: "black", color: "white" },
           }),
         }}
       />

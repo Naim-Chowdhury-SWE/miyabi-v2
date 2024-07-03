@@ -13,7 +13,7 @@ const Carousel = () => {
               src={imageData[key].image}
               alt={imageData[key].description}
             />
-            <figcaption className="text-center font-mono text-lg">
+            <figcaption className="text-center font-mono text-lg text-white">
               {imageData[key].description}
             </figcaption>
           </figure>

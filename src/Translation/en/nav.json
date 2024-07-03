@@ -1,5 +1,11 @@
 {
+  "telNumber": "076-304 39 85",
+  "address": "Kyrkvägen, Hersbyholms Stationshus, Lidingö",
   "home": "Home",
   "about": "About",
-  "contact": "Contact"
+  "contact": "Contact",
+  "menu": "Menu",
+  "orderTakeaway": "Order Takeaway",
+  "homeDelivery": "Homedelivery with Wolt",
+  "call": "Call Us"
 }

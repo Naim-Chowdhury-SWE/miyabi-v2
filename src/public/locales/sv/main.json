@@ -1,0 +1,7 @@
+{
+  "title": "Välkommen till react som använder react-i18next",
+  "description": {
+    "part1": "För att komma igång, redigera <1>src/App.js</1> och spara för att ladda om.",
+    "part2": "Byt språk mellan engelska och tyska med knapparna ovan."
+  }
+}

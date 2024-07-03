@@ -1,3 +1,9 @@
 {
-  "footerText": "Este es el pie de página."
+  "telNumber": "076-304 39 85",
+  "address": "Kyrkvägen, Hersbyholms Stationshus, Lidingö",
+  "openingHours": "Horas de abiertas",
+  "weekDays": "Lunes - Sabado",
+  "weekEnd": "Domingo",
+  "lastOrder": "¡NOTA! El último pedido se toma en",
+  "top": "A la Cima"
 }

@@ -3,30 +3,21 @@
 import Carousel from "./components/Carousel/Carousel";
 import Navbar from "./components/Navbar/Navbar";
 import LanguageSwitcher from "./utils/LanguageSwitcher";
-import Test from "./test";
-import Nav from "./components/Navbar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-
-import { useLanguageContext } from "./utils/LanguageContext";
+import Footer from "./components/Footer/Footer";
+import CTA from "./components/CTA/CTA";
 
 function App() {
-  const { t } = useLanguageContext();
   return (
     <>
-      <div className="bg-teal-900">
+      <div className="bg-stone-800">
         <LanguageSwitcher />
         <Navbar />
-        <Nav />
         <Carousel />
-        <p className="font-bold text-5xl text-red-900 text-center">
+        <CTA />
+        <p className="font-bold text-5xl text-red-900 text-center my-8">
           TESTING TAILWIND
         </p>
-        <div>
-          <Main />
-          <Footer />
-          {/* <Test /> */}
-        </div>
+        <Footer />
       </div>
     </>
   );

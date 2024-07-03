@@ -3,8 +3,10 @@ import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../data/logos";
 import { useState, useEffect } from "react";
 import SmoothScroll from "../ScrollLink/ScrollLink";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation("nav");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isContactDropdownOpen, setIsContactDropdownOpen] = useState(false);
   const [isDropdownEnabled, setIsDropdownEnabled] = useState(true);
@@ -140,7 +142,7 @@ const Navbar = () => {
             }`}
             onClick={toggleMenyDropdown}
           >
-            <li className="relative m-4">Meny</li>
+            <li className="relative m-4">{t("menu")}</li>
             {/* <ul
               className={` ${
                 isMenyDropdownOpen ? "flex" : "hidden"
@@ -151,7 +153,7 @@ const Navbar = () => {
           </div>
           <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">
             <li className="m-4">
-              <SmoothScroll targetId={"contact"}>Kontakt</SmoothScroll>
+              <SmoothScroll targetId={"contact"}>{t("contact")}</SmoothScroll>
             </li>
           </div>
           <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">
@@ -161,7 +163,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Beställ Takeaway
+                {t("orderTakeaway")}
               </a>
             </li>
           </div>
@@ -172,7 +174,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Hemleverans med Wolt
+                {t("homeDelivery")}
               </a>
             </li>
           </div>
@@ -187,7 +189,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Beställ Takeaway
+                {t("orderTakeaway")}
               </a>
             </li>
             <li className="shadow-black shadow-xl hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4">
@@ -196,14 +198,14 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Beställ Hemleverans
+                {t("homeDelivery")}
               </a>
             </li>
             <li className="shadow-black shadow-xl hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4">
-              <a href="tel:+46763043985">Ring oss</a>
+              <a href="tel:+46763043985">{t("call")}</a>
             </li>
             <div>
-              <li className="font-bold text-xl">Meny</li>
+              <li className="font-bold text-xl">{t("menu")}</li>
               {/* <ul
                 className={`relative top-full rounded-lg flex-col text-center gap-x-12 px-12 gap-2 grid grid-cols-2`}
               >
@@ -219,7 +221,7 @@ const Navbar = () => {
           className="my-2 hover:bg-red-700 font-semibold text-center hover:text-white transition duration-300 cursor-pointer"
           onClick={toggleContactDropdown}
         >
-          Kontakt
+          {t("contact")}
         </p>
       )}
       {isContactDropdownOpen && isDropdownEnabled && (
@@ -230,7 +232,7 @@ const Navbar = () => {
           <address className="bg-red-900 font-opensans text- lgfont-bold w-full lg:w-1/5 lg:p-4">
             <a className="flex flex-col items-center" href="tel:+46763043985">
               <BsTelephoneFill />
-              <p className="top-4">076-304 39 85</p>
+              <p className="top-4">{t("telNumber")}</p>
             </a>
             <a
               className="flex flex-col items-center mt-4"
@@ -239,7 +241,7 @@ const Navbar = () => {
               rel="noreferrer"
             >
               <FaLocationDot />
-              <p>Kyrkvägen, Hersbyholms Stationshus, Lidingö</p>
+              <p>{t("address")}</p>
             </a>
           </address>
         </div>

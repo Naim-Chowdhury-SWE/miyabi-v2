@@ -1,3 +1,9 @@
 {
-  "footerText": "Detta är sidfoten."
+  "telNumber": "076-304 39 85",
+  "address": "Kyrkvägen, Hersbyholms Stationshus, Lidingö",
+  "openingHours": "Öppettider",
+  "weekDays": "Måndag - Lördag",
+  "weekEnd": "Söndag",
+  "lastOrder": "OBS! Sista Beställning tas kl",
+  "top": "Till Toppen"
 }

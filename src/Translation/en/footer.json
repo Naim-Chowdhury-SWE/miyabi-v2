@@ -1,3 +1,9 @@
 {
-  "footerText": "This is the footer."
+  "telNumber": "076-304 39 85",
+  "address": "Kyrkvägen, Hersbyholms Stationshus, Lidingö",
+  "openingHours": "Opening Hours",
+  "weekDays": "Monday - Saturday",
+  "weekEnd": "Sunday",
+  "lastOrder": "NOTE! Last order is taken at",
+  "top": "To the Top"
 }

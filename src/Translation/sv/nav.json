@@ -1,5 +1,11 @@
 {
+  "telNumber": "076-304 39 85",
+  "address": "Kyrkvägen, Hersbyholms Stationshus, Lidingö",
   "home": "Hem",
   "about": "Om",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+  "menu": "Meny",
+  "orderTakeaway": "Beställ Takeaway",
+  "homeDelivery": "Hemleverans med Wolt",
+  "call": "Ring Oss"
 }
