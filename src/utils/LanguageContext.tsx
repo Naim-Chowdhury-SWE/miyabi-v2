@@ -1,20 +1,20 @@
 //utils/LanguageContext.tsx
 
-import React, { createContext, useContext, ReactNode } from "react";
+import { createContext, useContext, ReactNode } from "react";
 import { useTranslation } from "react-i18next";
-
+import { i18n as I18nInstance } from "i18next";
 interface Language {
   nativeName: string;
 }
 
 interface LanguageContextProps {
   t: (key: string) => string;
-  i18n: any;
-  onClickLanguageChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+  i18n: I18nInstance;
+  onClickLanguageChange: (language: string) => void;
   languages: Record<string, Language>;
 }
 
-const LanguageContext = createContext<LanguageContextProps | undefined>(
+export const LanguageContext = createContext<LanguageContextProps | undefined>(
   undefined
 );
 
@@ -29,14 +29,12 @@ export const LanguageContextProvider: React.FC<
     sv: { nativeName: "Svenska" },
     en: { nativeName: "English" },
     es: { nativeName: "Spanish" },
-    // Add more languages here
   };
 
   const { t, i18n } = useTranslation();
 
-  const onClickLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const language = e.target.value;
-    i18n.changeLanguage(language); // Change the language
+  const onClickLanguageChange = (language: string) => {
+    i18n.changeLanguage(language);
   };
 
   return (

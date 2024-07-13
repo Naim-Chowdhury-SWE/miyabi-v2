@@ -1,4 +1,4 @@
-import images from "../../testimages";
+import images from "../../data/imageData";
 import { CarouselKey } from "../../types";
 
 const imageData: CarouselKey = {

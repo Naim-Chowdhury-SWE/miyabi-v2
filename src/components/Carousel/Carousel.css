@@ -4,7 +4,8 @@
     padding-top: 1em;
     position: relative;
     height: 140px;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     overflow: hidden;
     mask-image: linear-gradient(
         to right,
