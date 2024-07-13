@@ -1,0 +1,60 @@
+{
+  "heading": "Sushi",
+  "mixedSmall": {
+    "name": "Mixto Pequeño",
+    "description": "Sushi mixto con una variedad de piezas de sushi."
+  },
+  "mixedMedium": {
+    "name": "Mixto Mediano",
+    "description": "Sushi mixto con una variedad de piezas de sushi."
+  },
+  "mixedLarge": {
+    "name": "Mixto Grande",
+    "description": "Sushi mixto con una variedad de piezas de sushi."
+  },
+
+  "salmonRolls": {
+    "name": "Salmón y Rollos",
+    "description": "Sushi mixto que contiene rollos y salmón."
+  },
+  "vegetarian": {
+    "name": "Vegetariano",
+    "description": "Sushi mixto con rollos vegetarianos, aguacate y tofu."
+  },
+  "mother": {
+    "name": "Madre",
+    "description": "Sushi mixto sin pescado crudo."
+  },
+  "nigiri": {
+    "name": "Nigiri Mixto",
+    "description": "Sushi mixto sin rollos."
+  },
+  "salmon": {
+    "name": "Salmón",
+    "description": "Sushi de salmón."
+  },
+  "salmonAvocado": {
+    "name": "Salmón y Aguacate",
+    "description": "Mitad salmón y mitad aguacate."
+  },
+  "salmonShrimp": {
+    "name": "Salmón y Camarones",
+    "description": "Mitad salmón y mitad camarones."
+  },
+  "avocado": {
+    "name": "Aguacate",
+    "description": "Sushi de aguacate."
+  },
+  "shrimp": {
+    "name": "Camarones",
+    "description": "Sushi de camarones."
+  },
+  "grillSalmon": {
+    "name": "Salmón a la Parrilla",
+    "description": "Sushi de salmón a la parrilla con mayonesa de chile."
+  },
+  "family": {
+    "name": "Familia",
+    "description": "Un sushi mixto grande con todos los tipos que ofrecemos."
+  }
+}

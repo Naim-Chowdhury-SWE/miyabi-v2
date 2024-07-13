@@ -1,0 +1,60 @@
+{
+  "heading": "Sushi",
+  "mixedSmall": {
+    "name": "Blandad Sushi Liten",
+    "description": "Blandad sushi med en variation av sushibitar."
+  },
+  "mixedMedium": {
+    "name": "Blandad Sushi Mellan",
+    "description": "Blandad sushi med en variation av sushibitar."
+  },
+  "mixedLarge": {
+    "name": "Blandad Sushi Stor",
+    "description": "Blandad sushi med en variation av sushibitar."
+  },
+
+  "salmonRolls": {
+    "name": "Lax & Rullar Sushi",
+    "description": "Blandad sushi med rullar och lax."
+  },
+  "vegetarian": {
+    "name": "Vegetarisk Sushi",
+    "description": "Blandad sushi med vegetariska rullar, avokado och tofu."
+  },
+  "mother": {
+    "name": "Moder Sushi",
+    "description": "Blandad sushi utan rå fisk."
+  },
+  "nigiri": {
+    "name": "Blandad Nigiri",
+    "description": "Blandad sushi utan rullar."
+  },
+  "salmon": {
+    "name": "Lax Sushi",
+    "description": "Lax sushi."
+  },
+  "salmonAvocado": {
+    "name": "Lax & Avokado Sushi",
+    "description": "Hälften lax och avokado."
+  },
+  "salmonShrimp": {
+    "name": "Lax & Räkor Sushi",
+    "description": "Hälften lax och räkor."
+  },
+  "avocado": {
+    "name": "Avokado Sushi",
+    "description": "Avokado sushi."
+  },
+  "shrimp": {
+    "name": "Räkor Sushi",
+    "description": "Räkor sushi."
+  },
+  "grillSalmon": {
+    "name": "Grillad Lax",
+    "description": "Grillad lax sushi toppad med chili mayo."
+  },
+  "family": {
+    "name": "Familje Sushi",
+    "description": "En stor blandad sushi med alla möjliga typer av sushi som vi erbjuder."
+  }
+}

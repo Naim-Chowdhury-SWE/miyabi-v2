@@ -6,7 +6,7 @@ const CTA = () => {
   const takeawayClick = () => {
     ReactGA.event({
       category: "User Interaction",
-      action: "Clicked Link",
+      action: "Clicked TakeAway Link",
       label: "TakeAway Click",
     });
   };
@@ -14,18 +14,18 @@ const CTA = () => {
   const hemleveransClick = () => {
     ReactGA.event({
       category: "User Interaction",
-      action: "Clicked Link",
+      action: "Clicked Home Delivery Link",
       label: "Hemleverans Click",
     });
   };
   return (
-    <div className="flex flex-row text-xs space-x-4 md:text-lg justify-center font-chowfun font-semibold">
+    <div className="flex flex-row text-xs gap-10 my-20 md:text-lg justify-center font-chowfun font-semibold tracking-wider">
       <a
         href="https://app.fasterorder.se/menu/sv/37"
         target="_blank"
         rel="noreferrer"
         onClick={takeawayClick}
-        className="bg-red-900 shadow-inner shadow-black hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4"
+        className="from-red-950 via-red-800 to-red-950 bg-gradient-to-b shadow-inner shadow-black hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4"
       >
         {t("takeaway")}
       </a>
@@ -35,7 +35,7 @@ const CTA = () => {
         target="_blank"
         rel="noreferrer"
         onClick={hemleveransClick}
-        className="bg-red-900 shadow-inner shadow-black hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4"
+        className="from-red-950 via-red-800 to-red-950 bg-gradient-to-b shadow-inner shadow-black hover:bg-red-600 hover:text-white duration-300 hover:scale-105 cursor-pointer rounded-lg p-4"
       >
         {t("homeDelivery")}
       </a>

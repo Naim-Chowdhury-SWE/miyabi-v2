@@ -25,7 +25,6 @@ const Footer: React.FC = () => {
               rel="noreferrer"
             >
               <FaLocationDot style={{ marginRight: "0.5em" }} />
-              {/* Kyrkvägen, Hersbyholms Stationshus, Lidingö */}
               {t("address")}
             </a>
             <a href="tel:+46763043985">
@@ -35,7 +34,7 @@ const Footer: React.FC = () => {
                   marginRight: "0.5em",
                 }}
               />
-              {/* 076-304 39 85 */} {t("telNumber")}
+              {t("telNumber")}
             </a>
           </section>
 
@@ -65,7 +64,7 @@ const Footer: React.FC = () => {
         <p className="mt-2">
           {t("lastOrder")} <time>20:30</time>
         </p>
-        <SmoothScroll targetId="Hem">
+        <SmoothScroll targetId="Hem" offset="10">
           <div>
             <p className="mt-2 p-2 rounded-lg font-chowfun tracking-widest underline underline-offset-8 hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer">
               {t("top")}

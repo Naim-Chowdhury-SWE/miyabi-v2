@@ -65,22 +65,8 @@ const Navbar = () => {
     };
   }, []);
 
-  /* const menyItems = getMeny().map((category) => (
-    <li
-      key={category.name}
-      className={`my-1 py-2 rounded-lg shadow-md md:shadow-none shadow-black text-black hover:bg-red-700 hover:text-white duration-500 hover:scale-105`}
-    >
-      <SmoothScroll
-        targetId={category.id}
-        offset={"8rem"}
-        onClick={closeDropdowns}
-      >
-        {category.name}
-      </SmoothScroll>
-    </li>
-  )); */
   return (
-    <nav className="bg-red-900 w-full fixed z-50 top-0 p-2 min-h-12 font-chowfun tracking-wider">
+    <nav className="bg-red-900 w-full fixed z-30 top-0 p-2 min-h-12 font-chowfun tracking-wider">
       <img
         src={logo.miyabitextblack}
         alt="Miyabi Logo"
@@ -143,13 +129,6 @@ const Navbar = () => {
             onClick={toggleMenyDropdown}
           >
             <li className="relative m-4">{t("menu")}</li>
-            {/* <ul
-              className={` ${
-                isMenyDropdownOpen ? "flex" : "hidden"
-              } absolute top-full rounded-lg flex-col bg-red-900 w-44 text-center p-2 mt-2`}
-            >
-              {menyItems}
-            </ul> */}
           </div>
           <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">
             <li className="m-4">
@@ -206,11 +185,6 @@ const Navbar = () => {
             </li>
             <div>
               <li className="font-bold text-xl">{t("menu")}</li>
-              {/* <ul
-                className={`relative top-full rounded-lg flex-col text-center gap-x-12 px-12 gap-2 grid grid-cols-2`}
-              >
-                {menyItems}
-              </ul> */}
             </div>
             <br />
           </ul>

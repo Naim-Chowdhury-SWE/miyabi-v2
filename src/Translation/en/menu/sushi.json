@@ -1,0 +1,59 @@
+{
+  "heading": "Sushi",
+  "mixedSmall": {
+    "name": "Mixed Sushi Small",
+    "description": "Mixed Sushi with a variety of sushi pieces."
+  },
+  "mixedMedium": {
+    "name": "Mixed Sushi Medium",
+    "description": "Mixed Sushi with a variety of sushi pieces."
+  },
+  "mixedLarge": {
+    "name": "Mixed Sushi Large",
+    "description": "Mixed Sushi with a variety of sushi pieces."
+  },
+  "salmonRolls": {
+    "name": "Salmon & Rolls Sushi",
+    "description": "Mixed Sushi containing Rolls and Salmon."
+  },
+  "vegetarian": {
+    "name": "Vegetarian Sushi",
+    "description": "Mixed sushi with Vegetarian rolls, Avocado, and Tofu."
+  },
+  "mother": {
+    "name": "Mother Sushi",
+    "description": "Mixed sushi without raw fish."
+  },
+  "nigiri": {
+    "name": "Mixed Nigiri",
+    "description": "Mixed sushi without rolls."
+  },
+  "salmon": {
+    "name": "Salmon Sushi",
+    "description": "Salmon Sushi."
+  },
+  "salmonAvocado": {
+    "name": "Salmon & Avocado Sushi",
+    "description": "Half salmon and half avocado."
+  },
+  "salmonShrimp": {
+    "name": "Salmon & Shrimp Sushi",
+    "description": "Half salmon & half shrimp."
+  },
+  "avocado": {
+    "name": "Avocado Sushi",
+    "description": "Avocado Sushi."
+  },
+  "shrimp": {
+    "name": "Shrimp Sushi",
+    "description": "Shrimp Sushi."
+  },
+  "grillSalmon": {
+    "name": "Grilled Salmon",
+    "description": "Grilled salmon sushi topped with chili mayo."
+  },
+  "family": {
+    "name": "Family Sushi",
+    "description": "A large mixed sushi with all possible types we offer."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "heading": "Cooked Food",
+  "pieces": " Pieces",
+  "size": {
+    "small": "Kids",
+    "medium": "Normal",
+    "large": "Large"
+  },
+  "yakiniku": {
+    "name": "Yakiniku",
+    "description": "Sliced Beef, stirfried, served with rice and salad"
+  },
+  "yakitori": {
+    "name": "Yakitori",
+    "description": "Chicken skewers with yakitori sauce, served with rice"
+  },
+  "yakinikuSushi": {
+    "name": "Yakiniku + 5 pieces of sushi",
+    "description": "Sliced Beef, stirfried, then served with rice and 5 pieces of assorted sushi"
+  },
+  "bento": {
+    "name": "Bento Box",
+    "description": "Yakiniku, Yakitori, and Sushi (2 rolls, 1 salmon, 1 shrimp). Rice and salad included"
+  },
+  "bentoGyoza": {
+    "name": "Bento Gyoza",
+    "description": "Yakiniku, Yakitori, and Gyoza. Rice and salad included"
+  },
+  "bentoMiyabi": {
+    "name": "Miyabi Bento",
+    "description": "Yakiniku, Yakitori, Tempura, and Sushi (1 salmon, 1 shrimp, 1 tuna). Rice and salad included"
+  },
+  "bentoDeluxe": {
+    "name": "Bento Deluxe",
+    "description": "Yakiniku, Yakitori, Tempura, Gyoza, and Sushi (1 salmon, 1 shrimp, 1 tuna). Rice and salad included"
+  },
+  "gyoza": {
+    "name": "Gyoza",
+    "description": "Mixed minced meat-filled dumplings served with rice and sauce"
+  },
+  "gyozaVeg": {
+    "name": "Vegetarian Gyoza",
+    "description": "Vegetarian dumplings served with rice and sauce"
+  },
+  "yakisoba": {
+    "name": "Yakisoba",
+    "description": "Stir-fried egg noodles with sliced beef and vegetables"
+  },
+  "wokChicken": {
+    "name": "Stir-fried Chicken",
+    "description": "Served with vegetables and rice or noodles"
+  },
+  "wokBeef": {
+    "name": "Stir-fried Beef",
+    "description": "Served with vegetables and rice or noodles"
+  },
+  "wokShrimp": {
+    "name": "Stir-fried Shrimp",
+    "description": "Served with vegetables and rice or noodles"
+  },
+  "tempura": {
+    "name": "Tempura",
+    "description": "Deep-fried tiger shrimp with vegetables and rice"
+  },
+  "karaage": {
+    "name": "Karaage",
+    "description": "Deep-fried chicken pieces with rice and sauce"
+  },
+  "friedriceChicken": {
+    "name": "Fried Rice with Chicken",
+    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
+  },
+  "friedriceBeef": {
+    "name": "Fried Rice with Beef",
+    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
+  },
+  "friedriceShrimp": {
+    "name": "Fried Rice with Shrimps",
+    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
+  },
+  "friedriceVeg": {
+    "name": "Fried Rice with Tofu",
+    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
+  },
+  "salmonTeriyaki": {
+    "name": "Salmon Teriyaki",
+    "description": "Grilled salmon with stir-fried vegetables, teriyaki sauce, and rice"
+  },
+  "springrolls": {
+    "name": "Vegetarian Spring Rolls",
+    "description": "Served with rice, salad, and sauce"
+  },
+  "bibimbapBeef": {
+    "name": "Bibimbap Beef",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  },
+  "bibimbapChicken": {
+    "name": "Bibimbap Chicken",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  },
+  "bibimbapShrimp": {
+    "name": "Bibimbap Shrimp",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  },
+  "bibimbapSalmon": {
+    "name": "Bibimbap Salmon",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  },
+  "bibimbapTofu": {
+    "name": "Bibimbap Tofu",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  },
+  "bibimbapMix": {
+    "name": "Bibimbap Mix",
+    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  }
+}

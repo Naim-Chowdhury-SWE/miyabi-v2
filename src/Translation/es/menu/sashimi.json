@@ -1,0 +1,23 @@
+{
+  "heading": "Sashimi",
+  "salmon": {
+    "small": "Sashimi de Salmón Pequeño",
+    "big": "Sashimi de Salmón Grande",
+    "description": "Grandes rebanadas de salmón sobre una cama de ensalada"
+  },
+  "tuna": {
+    "small": "Sashimi de Atún Pequeño",
+    "big": "Sashimi de Atún Grande",
+    "description": "Grandes rebanadas de atún sobre una cama de ensalada"
+  },
+  "salmonTuna": {
+    "small": "Sashimi de Salmón y Atún Pequeño",
+    "big": "Sashimi de Salmón y Atún Grande",
+    "description": "Grandes rebanadas de salmón y atún sobre una cama de ensalada"
+  },
+  "mixed": {
+    "small": "Sashimi Mixto Pequeño",
+    "big": "Sashimi Mixto Grande",
+    "description": "Pescados variados sobre una cama de ensalada"
+  }
+}
