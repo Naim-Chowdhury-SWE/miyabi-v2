@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { norimakiMenu } from "../../../data/MenuData/Norimaki";
 import { MenuId } from "../../../types";
 
-const Norimaki: React.FC<MenuId> = ({ id, ns }) => {
+const Norimaki: React.FC<MenuId> = ({ id, heading, ns }) => {
   const { t } = useTranslation(ns);
 
   const dishes = norimakiMenu(t);
@@ -11,7 +11,7 @@ const Norimaki: React.FC<MenuId> = ({ id, ns }) => {
   return (
     <div id={id}>
       <h1 className="text-center text-white font-cormorant text-5xl font-extrabold tracking-wide">
-        {t("heading")}
+        {heading}
       </h1>
       <CardWrapper dishes={dishes} />
     </div>

@@ -1,12 +1,12 @@
 import CardWrapper from "../../CardWrapper/CardWrapper";
 import { useTranslation } from "react-i18next";
-import { varmratterMenu } from "../../../data/MenuData/Varmratter";
+import { specialMenu } from "../../../data/MenuData/Special";
 import { MenuId } from "../../../types";
 
-const Varmratter: React.FC<MenuId> = ({ id, heading, ns }) => {
+const Special: React.FC<MenuId> = ({ id, heading, ns }) => {
   const { t } = useTranslation(ns);
 
-  const dishes = varmratterMenu(t);
+  const dishes = specialMenu(t);
 
   return (
     <div id={id}>
@@ -18,4 +18,4 @@ const Varmratter: React.FC<MenuId> = ({ id, heading, ns }) => {
   );
 };
 
-export default Varmratter;
+export default Special;
