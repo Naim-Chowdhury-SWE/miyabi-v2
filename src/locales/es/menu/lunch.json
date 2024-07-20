@@ -1,0 +1,15 @@
+{
+  "heading": "Almuerzo",
+
+  "monday": "Lunes",
+  "tuesday": "Martes",
+  "wednesday": "Miércoles",
+  "thursday": "Jueves",
+  "friday": "Viernes",
+
+  "dish1": "Fideos de arroz salteados con carne de res en rodajas y verduras",
+  "dish2": "Pollo salteado con arroz y verduras",
+  "dish3": "Curry japonés con pollo, verduras y arroz",
+  "dish4": "Yakisoba (fideos de huevo salteados con carne de res en rodajas)",
+  "dish5": "Karaage (pollo frito con arroz y salsa)"
+}

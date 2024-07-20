@@ -6,6 +6,14 @@
     "medium": "Normal",
     "large": "Large"
   },
+  "beef": "Beef",
+  "chicken": "Chicken",
+  "shrimp": "Shrimp",
+  "salmon": "Salmon",
+  "tofu": "Tofu",
+  "veg": "Vegetarian",
+  "mix": "Mix",
+
   "yakiniku": {
     "name": "Yakiniku",
     "description": "Sliced Beef, stirfried, served with rice and salad"
@@ -16,7 +24,7 @@
   },
   "yakinikuSushi": {
     "name": "Yakiniku + 5 pieces of sushi",
-    "description": "Sliced Beef, stirfried, then served with rice and 5 pieces of assorted sushi"
+    "description": "Sliced Beef, stirfried, served with rice and 5 pieces of assorted sushi"
   },
   "bento": {
     "name": "Bento Box",
@@ -46,16 +54,8 @@
     "name": "Yakisoba",
     "description": "Stir-fried egg noodles with sliced beef and vegetables"
   },
-  "wokChicken": {
-    "name": "Stir-fried Chicken",
-    "description": "Served with vegetables and rice or noodles"
-  },
-  "wokBeef": {
-    "name": "Stir-fried Beef",
-    "description": "Served with vegetables and rice or noodles"
-  },
-  "wokShrimp": {
-    "name": "Stir-fried Shrimp",
+  "wok": {
+    "name": "Stir-fry",
     "description": "Served with vegetables and rice or noodles"
   },
   "tempura": {
@@ -66,20 +66,8 @@
     "name": "Karaage",
     "description": "Deep-fried chicken pieces with rice and sauce"
   },
-  "friedriceChicken": {
-    "name": "Fried Rice with Chicken",
-    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
-  },
-  "friedriceBeef": {
-    "name": "Fried Rice with Beef",
-    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
-  },
-  "friedriceShrimp": {
-    "name": "Fried Rice with Shrimps",
-    "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
-  },
-  "friedriceVeg": {
-    "name": "Fried Rice with Tofu",
+  "friedrice": {
+    "name": "Fried Rice",
     "description": "Fried rice mixed with broccoli, bell pepper, green beans, edamame, carrots, and bamboo shoots. Salad included"
   },
   "salmonTeriyaki": {
@@ -90,28 +78,13 @@
     "name": "Vegetarian Spring Rolls",
     "description": "Served with rice, salad, and sauce"
   },
-  "bibimbapBeef": {
-    "name": "Bibimbap Beef",
+  "bibimbap": {
     "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
   },
-  "bibimbapChicken": {
-    "name": "Bibimbap Chicken",
-    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  "udon": {
+    "description": "Noodle soup made with rice noodles and vegetables"
   },
-  "bibimbapShrimp": {
-    "name": "Bibimbap Shrimp",
-    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
-  },
-  "bibimbapSalmon": {
-    "name": "Bibimbap Salmon",
-    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
-  },
-  "bibimbapTofu": {
-    "name": "Bibimbap Tofu",
-    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
-  },
-  "bibimbapMix": {
-    "name": "Bibimbap Mix",
-    "description": "Korean dish with rice, various salads, kimchi, and spicy sauce. Topped with a fried egg"
+  "ramen": {
+    "description": "Noodle soup made with egg noodles, vegetables, and boiled egg"
   }
 }

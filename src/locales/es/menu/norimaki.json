@@ -1,0 +1,112 @@
+{
+  "heading": "Norimaki",
+  "tuna": "Atún",
+  "salmon": "Salmón",
+  "normal": "Normal",
+  "special": "Especial",
+  "mango": "Mango",
+  "fried": "Frito",
+  "crispy": "Crispy",
+  "california": {
+    "name": "California Roll",
+    "description": "Rollo de algas con Aguacate, Pepino y Cangrejo. Cubierto con Mayonesa."
+  },
+  "californiaSpecial": {
+    "name": "California Roll Especial",
+    "description": "Rollo de algas con aguacate, pepino, cangrejo. Cubierto con salmón sellado y mayonesa de chile."
+  },
+  "standard": {
+    "name": "Rollo Estándar",
+    "description": "Rollo de algas con salmón, pepino y cangrejo."
+  },
+  "vegetarian": {
+    "name": "Rollo Vegetariano",
+    "description": "Rollo de algas con pepino y aguacate."
+  },
+  "vegetarianMango": {
+    "name": "Rollo Vegetariano con Mango",
+    "description": "Rollo de algas con pepino, aguacate y mango."
+  },
+  "vegetarianCrispy": {
+    "name": "Rollo Vegetariano Crujiente",
+    "description": "Aguacate, ensalada crujiente, tofu y mayonesa vegana. El rollo está frito."
+  },
+  "spicyTuna": {
+    "name": "Rollo de Atún Picante",
+    "description": "Rollo de algas con atún marinado con chile."
+  },
+  "spicySalmon": {
+    "name": "Rollo de Salmón Picante",
+    "description": "Rollo de algas con salmón marinado con chile."
+  },
+  "spicyTunaCrispy": {
+    "name": "Rollo de Atún Picante Crujiente",
+    "description": "Rollo de algas frito con atún marinado con chile."
+  },
+  "spicySalmonCrispy": {
+    "name": "Rollo de Salmón Picante Crujiente",
+    "description": "Rollo de algas frito con salmón marinado con chile."
+  },
+  "kappa": {
+    "name": "Kappa Maki",
+    "description": "Rollo de algas relleno de Pepino."
+  },
+  "shake": {
+    "name": "Shake Maki",
+    "description": "Rollo de algas con salmón."
+  },
+  "tekka": {
+    "name": "Tekka Maki",
+    "description": "Rollo de algas con atún y pepino."
+  },
+  "hawaii": {
+    "name": "Hawaii Maki",
+    "tuna": "Rollo de algas con atún y aguacate.",
+    "salmon": "Rollo de algas con salmón y aguacate."
+  },
+  "temakemax": {
+    "name": "Temakemax",
+    "description": "Rollo de algas con atún, aguacate y salmón."
+  },
+  "futomaki": {
+    "name": "Futomaki",
+    "description": "Rollo de algas con salmón, omelet, pepino y aguacate."
+  },
+  "tempura": {
+    "name": "Rollo Tempura",
+    "normal": "Rollo de algas con camarones fritos y mayonesa de chile.",
+    "fried": "Rollo de algas frito con camarones fritos, pepino y mayonesa de chile.",
+    "crispy": "Rollo de algas frito con camarones fritos, aguacate, ensalada crujiente y mayonesa de chile."
+  },
+  "miyabi": {
+    "name1": "Rollo Miyabi Especial",
+    "name2": "Rollo Miyabi",
+    "normal": "Rollo de algas frito con salmón, pepino, cangrejo y mayonesa de chile.",
+    "crispy": "Rollo de algas frito con salmón marinado, aguacate, ensalada crujiente y mayonesa de chile."
+  },
+  "karaage": {
+    "name": "Rollo Karage",
+    "description": "Rollo de algas con pollo frito, cubierto con mayonesa de chile."
+  },
+  "philadelphia": {
+    "name": "Rollo Philadelphia",
+    "description": "Rollo de algas con salmón, aguacate, pepino y queso crema Philadelphia."
+  },
+  "alaska": {
+    "name": "Rollo Alaska",
+    "normal": "Rollo de algas con salmón, aguacate y pepino, cubierto con mayonesa de chile.",
+    "crispy": "Rollo de algas frito con salmón, aguacate y pepino, cubierto con mayonesa de chile."
+  },
+  "yakiniku": {
+    "name": "Rollo Yakiniku",
+    "description": "Rollo de algas con carne de res yakiniku, pimiento, lechuga y cebolla roja, cubierto con mayonesa de chile."
+  },
+  "teriyaki": {
+    "name": "Rollo Teriyaki",
+    "description": "Rollo de algas con salmón sellado, aguacate, cebolla y lechuga."
+  },
+  "dragon": {
+    "name": "Rollo Dragón",
+    "description": "Camarones, ensalada crujiente, aguacate, salsa dragón, cubierto con salmón a la parrilla."
+  }
+}

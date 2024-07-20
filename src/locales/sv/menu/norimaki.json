@@ -1,0 +1,112 @@
+{
+  "heading": "Norimaki",
+  "tuna": "Tonfisk",
+  "salmon": "Lax",
+  "normal": "Normal",
+  "special": "Special",
+  "mango": "Mango",
+  "fried": "Friterad",
+  "crispy": "Crispy",
+  "california": {
+    "name": "California Roll",
+    "description": "Inside-Out rulle fylld med Avokado, Gurka och Krabba. Toppad med Majonnäs."
+  },
+  "californiaSpecial": {
+    "name": "California Roll Special",
+    "description": "Inside-Out sjögräsrulle med avokado, gurka, krabba. Toppad med halstrad lax och chili majonnäs."
+  },
+  "standard": {
+    "name": "Standard Roll",
+    "description": "Inside-Out sjögräsrulle med lax, gurka, krabba."
+  },
+  "vegetarian": {
+    "name": "Vegetarisk Roll",
+    "description": "Sjögräsrulle med gurka och avokado."
+  },
+  "vegetarianMango": {
+    "name": "Vegetarisk Roll med Mango",
+    "description": "Sjögräsrulle med gurka, avokado och mango."
+  },
+  "vegetarianCrispy": {
+    "name": "Krispig Vegetarisk Roll",
+    "description": "Avokado, krispig sallad, tofu och vegansk majonnäs. Rullen är friterad."
+  },
+  "spicyTuna": {
+    "name": "Spicy Tonfisk Roll",
+    "description": "Sjögräsrulle med chilimarinerad tonfisk."
+  },
+  "spicySalmon": {
+    "name": "Spicy Lax Roll",
+    "description": "Sjögräsrulle med chilimarinerad lax."
+  },
+  "spicyTunaCrispy": {
+    "name": "Crispy Spicy Tonfisk Roll",
+    "description": "Friterad sjögräsrulle med chilimarinerad tonfisk."
+  },
+  "spicySalmonCrispy": {
+    "name": "Crispy Spicy Lax Roll",
+    "description": "Friterad sjögräsrulle med chilimarinerad lax."
+  },
+  "kappa": {
+    "name": "Kappa Maki",
+    "description": "Sjögräsrulle fylld med gurka."
+  },
+  "shake": {
+    "name": "Shake Maki",
+    "description": "Sjögräsrulle med lax."
+  },
+  "tekka": {
+    "name": "Tekka Maki",
+    "description": "Sjögräsrulle med tonfisk och gurka."
+  },
+  "hawaii": {
+    "name": "Hawaii Maki",
+    "tuna": "Sjögräsrulle med tonfisk och avokado.",
+    "salmon": "Sjögräsrulle med lax och avokado."
+  },
+  "temakemax": {
+    "name": "Temakemax",
+    "description": "Sjögräsrulle med tonfisk, avokado och lax."
+  },
+  "futomaki": {
+    "name": "Futomaki",
+    "description": "Sjögräsrulle med lax, omelett, gurka och avokado."
+  },
+  "tempura": {
+    "name": "Tempura Roll",
+    "normal": "Sjögräsrulle med friterade räkor och chili majonnäs.",
+    "fried": "Friterad sjögräsrulle med friterade räkor, gurka och chili majonnäs.",
+    "crispy": "Friterad sjögräsrulle med friterade räkor, avokado, krispig sallad och chili majonnäs."
+  },
+  "miyabi": {
+    "name1": "Miyabi Special Roll",
+    "name2": "Miyabi Rulle",
+    "normal": "Friterad sjögräsrulle med lax, gurka, krabba och chili majonnäs.",
+    "crispy": "Friterad sjögräsrulle med marinerad lax, avokado, krispig sallad och chili majonnäs."
+  },
+  "karaage": {
+    "name": "Karage Roll",
+    "description": "Sjögräsrulle med friterad kyckling, toppad med chili majonnäs."
+  },
+  "philadelphia": {
+    "name": "Philadelphia Roll",
+    "description": "Sjögräsrulle med lax, avokado, gurka och Philadelphiaost."
+  },
+  "alaska": {
+    "name": "Alaska Roll",
+    "normal": "Sjögräsrulle med lax, avokado och gurka, toppad med chili majonnäs.",
+    "crispy": "Friterad sjögräsrulle med lax, avokado och gurka, toppad med chili majonnäs."
+  },
+  "yakiniku": {
+    "name": "Yakiniku Roll",
+    "description": "Sjögräsrulle med yakiniku, paprika, sallad och rödlök, toppad med chili majonnäs."
+  },
+  "teriyaki": {
+    "name": "Teriyaki Roll",
+    "description": "Sjögräsrulle med halstrad lax, avokado, lök och sallad."
+  },
+  "dragon": {
+    "name": "Dragon Roll",
+    "description": "Friterade Räkor, krispig sallad, avokado, dragonsås, toppad med grillad lax."
+  }
+}

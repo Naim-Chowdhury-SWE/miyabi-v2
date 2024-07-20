@@ -1,0 +1,15 @@
+{
+  "heading": "Lunch",
+
+  "monday": "Måndag",
+  "tuesday": "Tisdag",
+  "wednesday": "Onsdag",
+  "thursday": "Torsdag",
+  "friday": "Fredag",
+
+  "dish1": "Wokade risnudlar med entrecôte och grönsaker",
+  "dish2": "Wokad kyckling med ris och grönsaker",
+  "dish3": "Japansk curry med kyckling, grönsaker och ris",
+  "dish4": "Yakisoba (stekt äggnudlar med entrecôte)",
+  "dish5": "Chicken Karage (friterad kyckling med ris och sås)"
+}

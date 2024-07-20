@@ -1,5 +1,6 @@
 {
   "heading": "Sushi",
+  "pieces": " Bitar",
   "mixedSmall": {
     "name": "Blandad Sushi Liten",
     "description": "Blandad sushi med en variation av sushibitar."
@@ -22,7 +23,7 @@
     "description": "Blandad sushi med vegetariska rullar, avokado och tofu."
   },
   "mother": {
-    "name": "Moder Sushi",
+    "name": "Mamma Sushi",
     "description": "Blandad sushi utan rå fisk."
   },
   "nigiri": {

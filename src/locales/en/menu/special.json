@@ -1,0 +1,19 @@
+{
+  "heading": "Specials",
+
+  "beef": "Beef",
+  "chicken": "Chicken",
+  "shrimp": "Shrimp",
+
+  "description": "Served with salad and either rice or noodles",
+
+  "wokCurry1": "Wok with green curry (spicy) and",
+  "wokCurry2": "Wok with coconut milk, curry and",
+  "wokOyster": "Wok with Oyster Sauce and",
+  "wokChili": "Stir-fry with Chili (Spicy) and",
+  "wokMix": "Mixed Stir-fry with Chili (Spicy)",
+  "padthai": {
+    "name": "Pad Thai",
+    "description": "Stir-fried Rice Noodles with Vegetables and Salad"
+  }
+}

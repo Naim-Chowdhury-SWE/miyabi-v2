@@ -1,0 +1,90 @@
+{
+  "heading": "Varmrätter",
+  "pieces": " Styck",
+  "size": {
+    "small": "Barn",
+    "medium": "Normal",
+    "large": "Stor"
+  },
+  "beef": "Entrecôte",
+  "chicken": "Kyckling",
+  "shrimp": "Räkor",
+  "salmon": "Lax",
+  "tofu": "Tofu",
+  "veg": "Vegetarisk",
+  "mix": "Mix",
+
+  "yakiniku": {
+    "name": "Yakiniku",
+    "description": "Strimlad Entrecôte, serveras med ris och sallad"
+  },
+  "yakitori": {
+    "name": "Yakitori",
+    "description": "Kycklingspett med yakitorisås, serveras med ris"
+  },
+  "yakinikuSushi": {
+    "name": "Yakiniku + 5 bitar sushi",
+    "description": "Strimlad Entrecôte, serveras med ris och 5 bitar"
+  },
+  "bento": {
+    "name": "Bento",
+    "description": "Yakiniku, Yakitori och Sushi (2 rullar, 1 lax, 1 räka). Ris och sallad ingår"
+  },
+  "bentoGyoza": {
+    "name": "Bento Gyoza",
+    "description": "Yakiniku, Yakitori och Gyoza. Ris och sallad ingår"
+  },
+  "bentoMiyabi": {
+    "name": "Miyabi Bento",
+    "description": "Yakiniku, Yakitori, Tempura och Sushi (1 lax, 1 räka, 1 tonfisk). Ris och sallad ingår"
+  },
+  "bentoDeluxe": {
+    "name": "Bento Deluxe",
+    "description": "Yakiniku, Yakitori, Tempura, Gyoza och Sushi (1 lax, 1 räka, 1 tonfisk). Ris och sallad ingår"
+  },
+  "gyoza": {
+    "name": "Gyoza",
+    "description": "Blandfärsfyllda dumplings serverade med ris och sås"
+  },
+  "gyozaVeg": {
+    "name": "Vegetarisk Gyoza",
+    "description": "Vegetariska dumplings serverade med ris och sås"
+  },
+  "yakisoba": {
+    "name": "Yakisoba",
+    "description": "Stekta äggnudlar med Entrecôte och grönsaker"
+  },
+  "wok": {
+    "name": "Wok",
+    "description": "Serveras med grönsaker och ris eller nudlar"
+  },
+  "tempura": {
+    "name": "Tempura",
+    "description": "Friterade tigerräkor med grönsaker och ris"
+  },
+  "karaage": {
+    "name": "Karaage",
+    "description": "Friterade kyckling med ris och sås"
+  },
+  "friedrice": {
+    "name": "Stekt ris",
+    "description": "Stekt ris blandat med broccoli, paprika, haricot verts, edamame, morötter och bambuskott. Sallad ingår"
+  },
+  "salmonTeriyaki": {
+    "name": "Lax Teriyaki",
+    "description": "Stekt lax med wokade grönsaker, teriyakisås och ris"
+  },
+  "springrolls": {
+    "name": "Vegetariska Vårrullar",
+    "description": "Serveras med ris, sallad och sås"
+  },
+  "bibimbap": {
+    "description": "Koreansk rätt med ris, olika sallader, kimchi och stark sås. Toppa med ett stekt ägg"
+  },
+  "udon": {
+    "description": "Nudelsoppa gjord med risnudlar och grönsaker"
+  },
+  "ramen": {
+    "description": "Nudelsoppa gjord med äggnudlar, grönsaker och kokt ägg"
+  }
+}

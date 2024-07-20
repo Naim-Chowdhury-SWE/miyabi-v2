@@ -1,0 +1,112 @@
+{
+  "heading": "Norimaki",
+  "tuna": "Tuna",
+  "salmon": "Salmon",
+  "normal": "Normal",
+  "special": "Special",
+  "mango": "Mango",
+  "fried": "Deep fried",
+  "crispy": "Crispy",
+  "california": {
+    "name": "California Roll",
+    "description": "Inside-Out roll filled with Avocado, Cucumber, and Crab. Topped with Mayo."
+  },
+  "californiaSpecial": {
+    "name": "California Roll Special",
+    "description": "Inside-Out seaweed roll with avocado, cucumber, crab stick. Topped with seared salmon and chili mayo"
+  },
+  "standard": {
+    "name": "Standard Roll",
+    "description": "Inside-Out seaweed roll with salmon, cucumber, crab stick"
+  },
+  "vegetarian": {
+    "name": "Vegetarian Roll",
+    "description": "Seaweed roll with cucumber and avocado"
+  },
+  "vegetarianMango": {
+    "name": "Vegetarian Roll with Mango",
+    "description": "Seaweed roll with cucumber, avocado, and mango"
+  },
+  "vegetarianCrispy": {
+    "name": "Crispy Vegetarian Roll",
+    "description": "Avocado, crispy salad, tofu, and vegan mayonnaise. The roll is fried"
+  },
+  "spicyTuna": {
+    "name": "Spicy Tuna Roll",
+    "description": "Seaweed roll with chili-marinated tuna"
+  },
+  "spicySalmon": {
+    "name": "Spicy Salmon Roll",
+    "description": "Seaweed roll with chili-marinated salmon"
+  },
+  "spicyTunaCrispy": {
+    "name": "Crispy Spicy Tuna Roll",
+    "description": "Deep Fried seaweed roll with chili-marinated tuna"
+  },
+  "spicySalmonCrispy": {
+    "name": "Crispy Spicy Salmon Roll",
+    "description": "Deep Fried seaweed roll with chili-marinated salmon"
+  },
+  "kappa": {
+    "name": "Kappa Maki",
+    "description": "Sea cucumber roll filled with Cucumber."
+  },
+  "shake": {
+    "name": "Shake Maki",
+    "description": "Seaweed roll with salmon"
+  },
+  "tekka": {
+    "name": "Tekka Maki",
+    "description": "Seaweed roll with tuna and cucumber"
+  },
+  "hawaii": {
+    "name": "Hawaii Maki",
+    "tuna": "Seaweed roll with tuna and avocado",
+    "salmon": "Seaweed roll with salmon and avocado"
+  },
+  "temakemax": {
+    "name": "Temakemax",
+    "description": "Seaweed roll with tuna, avocado, and salmon"
+  },
+  "futomaki": {
+    "name": "Futomaki",
+    "description": "Seaweed roll with salmon, omelette, cucumber, and avocado"
+  },
+  "tempura": {
+    "name": "Tempura Roll",
+    "normal": "Seaweed roll with fried shrimp and chili mayo",
+    "fried": "Fried Seaweed roll with fried shrimp, cucumber, and chili mayo",
+    "crispy": "Fried Seaweed roll with fried shrimp, avocado, crispy salad, and chili mayonnaise"
+  },
+  "miyabi": {
+    "name1": "Miyabi Special Roll",
+    "name2": "Miyabi Roll",
+    "normal": "Fried Seaweed roll with salmon, cucumber, crab, and chili mayo",
+    "crispy": "Fried Seaweed roll with marinated salmon, avocado, crispy salad, and chili mayonnaise"
+  },
+  "karaage": {
+    "name": "Karage Roll",
+    "description": "Seaweed roll with fried chicken, topped with chili mayo"
+  },
+  "philadelphia": {
+    "name": "Philadelphia Roll",
+    "description": "Seaweed roll with salmon, avocado, cucumber, and Philadelphia cream cheese"
+  },
+  "alaska": {
+    "name": "Alaska Roll",
+    "normal": "Seaweed roll with salmon, avocado, and cucumber, topped with chili mayo",
+    "crispy": "Fried Seaweed roll with salmon, avocado, and cucumber, topped with chili mayo"
+  },
+  "yakiniku": {
+    "name": "Yakiniku Roll",
+    "description": "Seaweed roll with yakiniku beef, bell pepper, lettuce, and red onion, topped with chili mayo"
+  },
+  "teriyaki": {
+    "name": "Teriyaki Roll",
+    "description": "Seaweed roll with seared salmon, avocado, onion, and lettuce"
+  },
+  "dragon": {
+    "name": "Dragon Roll",
+    "description": "Shrimp, crispy salad, avocado, dragon sauce, topped with grilled salmon"
+  }
+}

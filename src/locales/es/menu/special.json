@@ -1,0 +1,19 @@
+{
+  "heading": "Especiales",
+
+  "beef": "Carne de Res",
+  "chicken": "Pollo",
+  "shrimp": "Camarones",
+
+  "description": "Servido con ensalada y arroz o fideos",
+
+  "wokCurry1": "Wok con curry (picante) y",
+  "wokCurry2": "Wok con leche de coco, curry y",
+  "wokOyster": "Wok con salsa de ostras y",
+  "wokChili": "Salteado con chile (picante) y",
+  "wokMix": "Salteado mixto con chile (picante)",
+  "padthai": {
+    "name": "Pad Thai",
+    "description": "Fideos de arroz salteados con verduras y ensalada"
+  }
+}

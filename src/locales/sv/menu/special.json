@@ -1,0 +1,19 @@
+{
+  "heading": "Special",
+
+  "beef": "Entrecôte",
+  "chicken": "Kyckling",
+  "shrimp": "Räkor",
+
+  "description": "Serveras med sallad och ris eller nudlar",
+
+  "wokCurry1": "Wok med grön curry (stark) och",
+  "wokCurry2": "Wok med kokosmjölk, curry och",
+  "wokOyster": "Wok med ostronsås och",
+  "wokChili": "Wok med chili (stark) och",
+  "wokMix": "Blandad wok med chili (stark)",
+  "padthai": {
+    "name": "Pad Thai",
+    "description": "Wokade risnudlar med grönsaker och sallad"
+  }
+}

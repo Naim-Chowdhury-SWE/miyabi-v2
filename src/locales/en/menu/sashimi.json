@@ -1,23 +1,23 @@
 {
   "heading": "Sashimi",
+
+  "small": "Small",
+  "big": "Big",
+
   "salmon": {
-    "small": "Salmon Sashimi Small",
-    "big": "Salmon Sashimi Large",
+    "name": "Salmon Sashimi",
     "description": "Large slices of salmon on a bed of salad"
   },
   "tuna": {
-    "small": "Tuna Sashimi Small",
-    "big": "Tuna Sashimi Large",
+    "name": "Tuna Sashimi",
     "description": "Large slices of tuna on a bed of salad"
   },
   "salmonTuna": {
-    "small": "Salmon & Tuna Sashimi Small",
-    "big": "Salmon & Tuna Sashimi Large",
+    "name": "Salmon & Tuna Sashimi",
     "description": "Large slices of salmon and tuna on a bed of salad"
   },
   "mixed": {
-    "small": "Mixed Sashimi Small",
-    "big": "Mixed Sashimi Large",
+    "name": "Mixed Sashimi",
     "description": "Mixed fish on a bed of salad"
   }
 }

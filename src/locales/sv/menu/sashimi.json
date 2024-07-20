@@ -1,23 +1,21 @@
 {
   "heading": "Sashimi",
+  "small": "Liten",
+  "big": "Stor",
   "salmon": {
-    "small": "Lax Sashimi Liten",
-    "big": "Lax Sashimi Stor",
+    "name": "Lax Sashimi",
     "description": "Stora skivor av lax på en bädd av sallad"
   },
   "tuna": {
-    "small": "Tonfisk Sashimi Liten",
-    "big": "Tonfisk Sashimi Stor",
+    "name": "Tonfisk Sashimi",
     "description": "Stora skivor av tonfisk på en bädd av sallad"
   },
   "salmonTuna": {
-    "small": "Lax & Tonfisk Sashimi Liten",
-    "big": "Lax & Tonfisk Sashimi Stor",
+    "name": "Lax & Tonfisk Sashimi",
     "description": "Stora skivor av lax och tonfisk på en bädd av sallad"
   },
   "mixed": {
-    "small": "Blandad Sashimi Liten",
-    "big": "Blandad Sashimi Stor",
+    "name": "Blandad Sashimi",
     "description": "Blandade fiskar på en bädd av sallad"
   }
 }

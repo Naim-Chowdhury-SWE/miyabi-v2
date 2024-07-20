@@ -1,0 +1,90 @@
+{
+  "heading": "Platos Calientes",
+  "pieces": " Piezas",
+  "size": {
+    "small": "Niños",
+    "medium": "Normal",
+    "large": "Grande"
+  },
+  "beef": "Carne de Res",
+  "chicken": "Pollo",
+  "shrimp": "Camarón",
+  "salmon": "Salmón",
+  "tofu": "Tofu",
+  "veg": "Vegetariano",
+  "mix": "Mezcla",
+
+  "yakiniku": {
+    "name": "Yakiniku",
+    "description": "Carne de res en rodajas, salteada, servida con arroz y ensalada"
+  },
+  "yakitori": {
+    "name": "Yakitori",
+    "description": "Brochetas de pollo con salsa yakitori, servidas con arroz"
+  },
+  "yakinikuSushi": {
+    "name": "Yakiniku + 5 piezas de sushi",
+    "description": "Carne de res en rodajas, salteada, servida con arroz y 5 piezas de sushi surtido"
+  },
+  "bento": {
+    "name": "Bento",
+    "description": "Yakiniku, Yakitori y Sushi (2 rollos, 1 salmón, 1 camarón). Incluye arroz y ensalada"
+  },
+  "bentoGyoza": {
+    "name": "Bento Gyoza",
+    "description": "Yakiniku, Yakitori y Gyoza. Incluye arroz y ensalada"
+  },
+  "bentoMiyabi": {
+    "name": "Bento Miyabi",
+    "description": "Yakiniku, Yakitori, Tempura y Sushi (1 salmón, 1 camarón, 1 atún). Incluye arroz y ensalada"
+  },
+  "bentoDeluxe": {
+    "name": "Bento Deluxe",
+    "description": "Yakiniku, Yakitori, Tempura, Gyoza y Sushi (1 salmón, 1 camarón, 1 atún). Incluye arroz y ensalada"
+  },
+  "gyoza": {
+    "name": "Gyoza",
+    "description": "Empanadillas rellenas de carne mixta, servidas con arroz y salsa"
+  },
+  "gyozaVeg": {
+    "name": "Gyoza Vegetariano",
+    "description": "Empanadillas vegetarianas servidas con arroz y salsa"
+  },
+  "yakisoba": {
+    "name": "Yakisoba",
+    "description": "Fideos de huevo salteados con carne de res en rodajas y verduras"
+  },
+  "wok": {
+    "name": "Wok",
+    "description": "Servido con verduras y arroz o fideos"
+  },
+  "tempura": {
+    "name": "Tempura",
+    "description": "Camarones tigre fritos con verduras y arroz"
+  },
+  "karaage": {
+    "name": "Karaage",
+    "description": "Piezas de pollo frito con arroz y salsa"
+  },
+  "friedrice": {
+    "name": "Arroz Frito",
+    "description": "Arroz frito mezclado con brócoli, pimiento, ejotes, edamame, zanahorias y brotes de bambú. Incluye ensalada"
+  },
+  "salmonTeriyaki": {
+    "name": "Salmón Teriyaki",
+    "description": "Salmón a la parrilla con verduras salteadas, salsa teriyaki y arroz"
+  },
+  "springrolls": {
+    "name": "Rollitos de Primavera Vegetarianos",
+    "description": "Servidos con arroz, ensalada y salsa"
+  },
+  "bibimbap": {
+    "description": "Plato coreano con arroz, varias ensaladas, kimchi y salsa picante. Cubierto con un huevo frito"
+  },
+  "udon": {
+    "description": "Sopa de fideos hecha con fideos de arroz y verduras"
+  },
+  "ramen": {
+    "description": "Sopa de fideos hecha con fideos de huevo, verduras y huevo cocido"
+  }
+}
