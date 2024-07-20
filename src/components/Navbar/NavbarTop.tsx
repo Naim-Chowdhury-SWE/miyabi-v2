@@ -2,7 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../data/logos";
 import { useState, useEffect } from "react";
-import SmoothScroll from "../ScrollLink/ScrollLink";
+import ScrollLink from "../ScrollLink/ScrollLink";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
@@ -10,11 +10,9 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isContactDropdownOpen, setIsContactDropdownOpen] = useState(false);
   const [isDropdownEnabled, setIsDropdownEnabled] = useState(true);
-  const [isMenyDropdownOpen, setIsMenyDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsContactDropdownOpen(false);
-    setIsMenyDropdownOpen(false);
     setIsDropdownOpen((prevState) => !prevState);
   };
 
@@ -23,16 +21,9 @@ const Navbar = () => {
     setIsContactDropdownOpen((prevState) => !prevState);
   };
 
-  const toggleMenyDropdown = () => {
-    setIsDropdownOpen(false);
-    setIsContactDropdownOpen(false);
-    setIsMenyDropdownOpen((prevState) => !prevState);
-  };
-
   const closeDropdowns = () => {
     setIsDropdownOpen(false);
     setIsContactDropdownOpen(false);
-    setIsMenyDropdownOpen(false);
   };
 
   const handleScroll = () => {
@@ -120,19 +111,16 @@ const Navbar = () => {
 
       <div className="justify-center hidden lg:flex p-1">
         <ul className="flex items-center mx-4 text-black font-bold">
-          <div
-            className={`relative cursor-pointer transition duration-300 rounded-lg mx-2 flex justify-center ${
-              isMenyDropdownOpen
-                ? "bg-red-900 text-white"
-                : "hover:bg-red-700 hover:text-white"
-            }`}
-            onClick={toggleMenyDropdown}
-          >
-            <li className="relative m-4">{t("menu")}</li>
+          <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">
+            <li className="m-4">
+              <ScrollLink targetId={"SushiMenu"} offset="10">
+                {t("menu")}
+              </ScrollLink>
+            </li>
           </div>
           <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">
             <li className="m-4">
-              <SmoothScroll targetId={"contact"}>{t("contact")}</SmoothScroll>
+              <ScrollLink targetId={"contact"}>{t("contact")}</ScrollLink>
             </li>
           </div>
           <div className="hover:bg-red-700 hover:text-white transition duration-300 cursor-pointer rounded-lg mx-2">

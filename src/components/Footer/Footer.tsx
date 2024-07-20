@@ -6,9 +6,7 @@ import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation("footer");
-  /* eslint-disable no-unused-vars */
   const currentYear = new Date().getFullYear();
-  /* eslint-enable no-unused-vars */
   return (
     <footer className="text-white font-opensans font-semibold lg:text-lg flex flex-col items-center">
       <div className="container">
