@@ -1,83 +1,98 @@
 import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import common from "../Translation/common.json";
+import common from "../locales/common.json";
 
 //Swedish
-import navSv from "../Translation/sv/components/nav.json";
-import headerSv from "../Translation/sv/components/header.json";
-import ctaSv from "../Translation/sv/components/cta.json";
-import footerSv from "../Translation/sv/components/footer.json";
+import navSv from "../locales/sv/components/nav.json";
+import headerSv from "../locales/sv/components/header.json";
+import ctaSv from "../locales/sv/components/cta.json";
+import footerSv from "../locales/sv/components/footer.json";
 //Menu
-import sushiSv from "../Translation/sv/menu/sushi.json";
-import norimakiSv from "../Translation/sv/menu/norimaki.json";
-import sashimiSv from "../Translation/sv/menu/sashimi.json";
-import pokebowlSv from "../Translation/sv/menu/pokebowl.json";
-import varmratterSv from "../Translation/sv/menu/varmratter.json";
+import lunchSv from "../locales/sv/menu/lunch.json";
+import sushiSv from "../locales/sv/menu/sushi.json";
+import norimakiSv from "../locales/sv/menu/norimaki.json";
+import sashimiSv from "../locales/sv/menu/sashimi.json";
+import pokebowlSv from "../locales/sv/menu/pokebowl.json";
+import varmratterSv from "../locales/sv/menu/varmratter.json";
+import specialSv from "../locales/sv/menu/special.json";
 
 //English
-import navEn from "../Translation/en/components/nav.json";
-import headerEn from "../Translation/en/components/header.json";
-import ctaEn from "../Translation/en/components/cta.json";
-import footerEn from "../Translation/en/components/footer.json";
+import navEn from "../locales/en/components/nav.json";
+import headerEn from "../locales/en/components/header.json";
+import ctaEn from "../locales/en/components/cta.json";
+import footerEn from "../locales/en/components/footer.json";
 //Menu
-import sushiEn from "../Translation/en/menu/sushi.json";
-import norimakiEn from "../Translation/en/menu/norimaki.json";
-import sashimiEn from "../Translation/en/menu/sashimi.json";
-import pokebowlEn from "../Translation/en/menu/pokebowl.json";
-import varmratterEn from "../Translation/en/menu/varmratter.json";
+import lunchEn from "../locales/en/menu/lunch.json";
+import sushiEn from "../locales/en/menu/sushi.json";
+import norimakiEn from "../locales/en/menu/norimaki.json";
+import sashimiEn from "../locales/en/menu/sashimi.json";
+import pokebowlEn from "../locales/en/menu/pokebowl.json";
+import varmratterEn from "../locales/en/menu/varmratter.json";
+import specialEn from "../locales/en/menu/special.json";
 
 //Spanish
-import navEs from "../Translation/es/components/nav.json";
-import headerEs from "../Translation/es/components/header.json";
-import ctaEs from "../Translation/es/components/cta.json";
-import footerEs from "../Translation/es/components/footer.json";
+import navEs from "../locales/es/components/nav.json";
+import headerEs from "../locales/es/components/header.json";
+import ctaEs from "../locales/es/components/cta.json";
+import footerEs from "../locales/es/components/footer.json";
 //Menu
-import sushiEs from "../Translation/es/menu/sushi.json";
-import norimakiEs from "../Translation/es/menu/norimaki.json";
-import sashimiEs from "../Translation/es/menu/sashimi.json";
-import pokebowlEs from "../Translation/es/menu/pokebowl.json";
-import varmratterEs from "../Translation/es/menu/varmratter.json";
+import lunchEs from "../locales/es/menu/lunch.json";
+import sushiEs from "../locales/es/menu/sushi.json";
+import norimakiEs from "../locales/es/menu/norimaki.json";
+import sashimiEs from "../locales/es/menu/sashimi.json";
+import pokebowlEs from "../locales/es/menu/pokebowl.json";
+import varmratterEs from "../locales/es/menu/varmratter.json";
+import specialEs from "../locales/es/menu/special.json";
 
 const resources = {
   sv: {
     common: common,
+    //Components
     nav: navSv,
     header: headerSv,
     cta: ctaSv,
     footer: footerSv,
     //Menu
+    lunch: lunchSv,
     sushi: sushiSv,
     norimaki: norimakiSv,
     sashimi: sashimiSv,
     pokebowl: pokebowlSv,
     varmratter: varmratterSv,
+    special: specialSv,
   },
   en: {
     common: common,
+    // Components
     nav: navEn,
     header: headerEn,
     cta: ctaEn,
     footer: footerEn,
     //Menu
+    lunch: lunchEn,
     sushi: sushiEn,
     norimaki: norimakiEn,
     sashimi: sashimiEn,
     pokebowl: pokebowlEn,
     varmratter: varmratterEn,
+    special: specialEn,
   },
   es: {
     common: common,
+    //Components
     nav: navEs,
     header: headerEs,
     cta: ctaEs,
     footer: footerEs,
     //Menu
+    lunch: lunchEs,
     sushi: sushiEs,
     norimaki: norimakiEs,
     sashimi: sashimiEs,
     pokebowl: pokebowlEs,
     varmratter: varmratterEs,
+    special: specialEs,
   },
 };
 
@@ -93,11 +108,13 @@ i18next.use(initReactI18next).init({
     "header",
     "cta",
     "footer",
+    "lunch",
     "sushi",
     "norimaki",
     "sashimi",
     "pokebowl",
     "varmratter",
+    "special",
   ],
   defaultNS,
   interpolation: {
