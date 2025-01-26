@@ -8,7 +8,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokCurry1") + " " + t("chicken")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadKycklingStark],
   },
   {
@@ -16,7 +16,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokCurry1") + " " + t("shrimp")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadRakor],
   },
   {
@@ -24,7 +24,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokCurry1") + " " + t("beef")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadBiff],
   },
   {
@@ -32,7 +32,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokCurry2") + " " + t("chicken")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.KokosmjolkKyckling],
   },
   {
@@ -40,7 +40,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokCurry2") + " " + t("shrimp")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.KokosmjolkRaka],
   },
   {
@@ -48,7 +48,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokOyster") + " " + t("chicken")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.OstronsasKyckling],
   },
   {
@@ -56,7 +56,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokOyster") + " " + t("shrimp")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.OstronsasRaka],
   },
   {
@@ -64,7 +64,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokOyster") + " " + t("beef")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.OstronsasBiff],
   },
   {
@@ -72,7 +72,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokChili") + " " + t("chicken")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadKycklingStark],
   },
   {
@@ -80,7 +80,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokChili") + " " + t("shrimp")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadRakorStark],
   },
   {
@@ -88,7 +88,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokChili") + " " + t("beef")],
     description: [t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.missingImage],
   },
   {
@@ -96,7 +96,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("wokMix")],
     description: [t("chicken") + " & " + t("shrimp") + ", " + t("description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.WokadKycklingRakorStark],
   },
   {
@@ -104,7 +104,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("padthai.name") + " " + t("chicken")],
     description: [t("padthai.description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.PadThaiKyckling],
   },
   {
@@ -112,7 +112,7 @@ export const specialMenu = (t: TFunction): Dish[] => [
     dishName: [t("padthai.name") + " " + t("shrimp")],
     description: [t("padthai.description")],
     type: [],
-    price: [149],
+    price: [159],
     image: [images.PadThaiRaka],
   },
 ];
