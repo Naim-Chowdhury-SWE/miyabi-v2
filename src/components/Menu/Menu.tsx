@@ -1,4 +1,5 @@
-import NavbarMenu from "../Navbar/NavbarMenu";
+import { useState, useEffect } from "react";
+import MenuTabs from "../Navbar/MenuTabs";
 
 import Lunch from "./Lunch/Lunch";
 import Sushi from "./Sushi/Sushi";
@@ -22,18 +23,46 @@ const menuComponents: Omit<MenuItem, "heading">[] = [
 
 const Menu = () => {
   const { t } = useTranslation();
+  const [activeSection, setActiveSection] = useState("LunchMenu");
 
   const menuList = menuComponents.map((menu) => ({
     ...menu,
     heading: t(`${menu.ns}:heading`),
   }));
 
+  const sectionOffsets: { [key: string]: number } = {};
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+
+    menuList.forEach((section) => {
+      const sectionElement = document.getElementById(section.id);
+      if (sectionElement) {
+        sectionOffsets[section.id] = sectionElement.offsetTop;
+      }
+    });
+
+    let active = "LunchMenu";
+    for (const section in sectionOffsets) {
+      if (scrollY >= sectionOffsets[section] - 200) {
+        active = section;
+      }
+    }
+    setActiveSection(active);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [menuList]);
   return (
     <main className="">
       <h1 className="text-white text-center font-cormorant text-7xl font-bold tracking-wider mt-8">
         {t("menu")}
       </h1>
-      <NavbarMenu menuList={menuList} />
+      <MenuTabs menuList={menuList} activeSection={activeSection} />
 
       <>
         {menuList.map((menu) => (

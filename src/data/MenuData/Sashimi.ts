@@ -6,8 +6,8 @@ export const sashimiMenu = (t: TFunction): Dish[] => [
   {
     id: 1,
     dishName: [
-      t("salmon.name" + " " + "small"),
-      t("salmon.name" + " " + "big"),
+      t("salmon.name") + " " + t("small"),
+      t("salmon.name") + " " + t("big"),
     ],
     description: [t("salmon.description")],
     type: [t("small"), t("big")],
@@ -16,7 +16,10 @@ export const sashimiMenu = (t: TFunction): Dish[] => [
   },
   {
     id: 2,
-    dishName: [t("tuna.name" + " " + "small"), t("tuna.name" + " " + "big")],
+    dishName: [
+      t("tuna.name") + " " + t("small"),
+      t("tuna.name") + " " + t("big"),
+    ],
     description: [t("tuna.description")],
     type: [t("small"), t("big")],
     price: [149, 249],
@@ -25,8 +28,8 @@ export const sashimiMenu = (t: TFunction): Dish[] => [
   {
     id: 3,
     dishName: [
-      t("salmonTuna.name" + " " + "small"),
-      t("salmonTuna.name" + " " + "big"),
+      t("salmonTuna.name") + " " + t("small"),
+      t("salmonTuna.name") + " " + t("big"),
     ],
     description: [t("salmonTuna.description")],
     type: [t("small"), t("big")],
@@ -35,7 +38,10 @@ export const sashimiMenu = (t: TFunction): Dish[] => [
   },
   {
     id: 4,
-    dishName: [t("mixed.name" + " " + "small"), t("mixed.name" + " " + "big")],
+    dishName: [
+      t("mixed.name") + " " + t("small"),
+      t("mixed.name") + " " + t("big"),
+    ],
     description: [t("mixed.description")],
     type: [t("small"), t("big")],
     price: [149, 249],

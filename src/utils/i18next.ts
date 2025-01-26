@@ -6,6 +6,7 @@ import common from "../locales/common.json";
 //Swedish
 import navSv from "../locales/sv/components/nav.json";
 import headerSv from "../locales/sv/components/header.json";
+import carouselSv from "../locales/sv/components/carousel.json";
 import ctaSv from "../locales/sv/components/cta.json";
 import footerSv from "../locales/sv/components/footer.json";
 //Menu
@@ -20,6 +21,7 @@ import specialSv from "../locales/sv/menu/special.json";
 //English
 import navEn from "../locales/en/components/nav.json";
 import headerEn from "../locales/en/components/header.json";
+import carouselEn from "../locales/en/components/carousel.json";
 import ctaEn from "../locales/en/components/cta.json";
 import footerEn from "../locales/en/components/footer.json";
 //Menu
@@ -34,6 +36,7 @@ import specialEn from "../locales/en/menu/special.json";
 //Spanish
 import navEs from "../locales/es/components/nav.json";
 import headerEs from "../locales/es/components/header.json";
+import carouselEs from "../locales/es/components/carousel.json";
 import ctaEs from "../locales/es/components/cta.json";
 import footerEs from "../locales/es/components/footer.json";
 //Menu
@@ -51,6 +54,7 @@ const resources = {
     //Components
     nav: navSv,
     header: headerSv,
+    carousel: carouselSv,
     cta: ctaSv,
     footer: footerSv,
     //Menu
@@ -67,6 +71,7 @@ const resources = {
     // Components
     nav: navEn,
     header: headerEn,
+    carousel: carouselEn,
     cta: ctaEn,
     footer: footerEn,
     //Menu
@@ -83,6 +88,7 @@ const resources = {
     //Components
     nav: navEs,
     header: headerEs,
+    carousel: carouselEs,
     cta: ctaEs,
     footer: footerEs,
     //Menu
@@ -106,6 +112,7 @@ i18next.use(initReactI18next).init({
     "common",
     "nav",
     "header",
+    "carousel",
     "cta",
     "footer",
     "lunch",

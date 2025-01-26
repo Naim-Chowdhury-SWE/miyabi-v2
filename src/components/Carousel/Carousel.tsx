@@ -1,4 +1,3 @@
-// Carousel.tsx
 import "./Carousel.css";
 import imageData from "./CarouselData";
 

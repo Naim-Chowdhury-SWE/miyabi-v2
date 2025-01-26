@@ -1,14 +1,23 @@
 import images from "../../data/imageData";
-import { CarouselKey } from "../../types";
 
-const imageData: CarouselKey = {
+type ImageDataItem = {
+  image: string;
+  description: string;
+};
+
+// Define the type for the imageData object with an index signature
+type ImageData = {
+  [key: string]: ImageDataItem;
+};
+
+const imageData: ImageData = {
   image1: {
     image: images.PappaLyx,
     description: "Pappa Lyx",
   },
   image2: {
     image: images.BibimbapEntrecote,
-    description: "Bimbimbap Entrecote",
+    description: "Bimbimbap",
   },
   image3: {
     image: images.GrillLaxSushi,
@@ -20,7 +29,7 @@ const imageData: CarouselKey = {
   },
   image5: {
     image: images.PokebowlLax,
-    description: "Pokebowl Lax",
+    description: "Pokebowl",
   },
   image6: {
     image: images.BentoDeluxe,
@@ -35,5 +44,4 @@ const imageData: CarouselKey = {
     description: "Karaage",
   },
 };
-
 export default imageData;

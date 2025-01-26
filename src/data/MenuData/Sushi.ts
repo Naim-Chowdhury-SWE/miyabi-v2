@@ -72,7 +72,7 @@ export const sushiMenu = (t: TFunction): Dish[] => [
     dishName: [t("salmon.name")],
     description: [t("salmon.description")],
     type: [8 + t("pieces"), 10 + t("pieces"), 12 + t("pieces")],
-    price: [129, 149, 169],
+    price: [139, 159, 179],
     image: [images.LaxSushi],
   },
   {
@@ -80,7 +80,7 @@ export const sushiMenu = (t: TFunction): Dish[] => [
     dishName: [t("salmonAvocado.name")],
     description: [t("salmonAvocado.description")],
     type: [8 + t("pieces"), 10 + t("pieces"), 12 + t("pieces")],
-    price: [115, 129, 149],
+    price: [129, 139, 159],
     image: [images.LaxAvocadoSushi],
   },
   {

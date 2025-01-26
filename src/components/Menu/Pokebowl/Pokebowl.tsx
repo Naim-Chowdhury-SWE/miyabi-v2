@@ -10,7 +10,7 @@ const Pokebowl: React.FC<MenuId> = ({ id, heading, ns }) => {
 
   return (
     <div id={id}>
-      <h1 className="text-center text-white font-cormorant text-5xl font-extrabold tracking-wide">
+      <h1 className="text-center text-golden font-cormorant text-5xl font-extrabold tracking-wide">
         {heading}
       </h1>
       <CardWrapper dishes={dishes} />

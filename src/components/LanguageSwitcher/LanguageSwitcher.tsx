@@ -19,50 +19,54 @@ const LanguageSwitcher: React.FC = () => {
   };
 
   return (
-    <div className="fixed right-12 lg:right-0 z-40 gap-4 justify-end top-2 lg:top-5 mx-8">
-      <Select
-        options={options}
-        defaultValue={options.find(
-          (option) => option.value === currentLanguage
-        )}
-        hideSelectedOptions={true}
-        onChange={handleChange}
-        className="w-36"
-        classNamePrefix="react-select"
-        styles={{
-          control: (base) => ({
-            ...base,
-            backgroundColor: "",
-            color: "white",
-            fontFamily: '"Cormorant Upright", serif',
-            fontWeight: "bold",
-            fontSize: "20px",
-            borderColor: "transparent",
-            "&:hover": { borderColor: "#540000" },
-          }),
-          singleValue: (base) => ({
-            ...base,
-            color: "white",
-          }),
-          menu: (base) => ({
-            ...base,
-            backgroundColor: "darkred",
-            fontFamily: '"Cormorant Upright", serif',
-            fontWeight: "bold",
-            fontSize: "20px",
-            paddingLeft: "5px",
-            paddingRight: "5px",
-          }),
-          option: (base, { isFocused }) => ({
-            ...base,
-            borderRadius: "5px",
-            backgroundColor: "",
-            color: isFocused ? "white" : "black",
-            "&:hover": { backgroundColor: "#540000", color: "white" },
-          }),
-        }}
-      />
-    </div>
+    <aside className="flex justify-center -mt-8 mb-8">
+      <div className="bg-gradient-to-b from-red-950 via-red-800 to-red-950 shadow-inner shadow-black rounded-lg w-fit">
+        <Select
+          options={options}
+          defaultValue={options.find(
+            (option) => option.value === currentLanguage
+          )}
+          hideSelectedOptions={true}
+          isSearchable={false}
+          onChange={handleChange}
+          className="w-36"
+          classNamePrefix="react-select"
+          styles={{
+            control: (base) => ({
+              ...base,
+              backgroundColor: "",
+              color: "white",
+              fontFamily: '"Cormorant Upright", serif',
+              fontWeight: "900",
+              fontSize: "20px",
+              borderColor: "transparent",
+              "&:hover": { borderColor: "#540000" },
+            }),
+            singleValue: (base) => ({
+              ...base,
+              color: "white",
+            }),
+            menu: (base) => ({
+              ...base,
+              backgroundColor: "darkred",
+              fontFamily: '"Cormorant Upright", serif',
+              fontWeight: "900",
+              fontSize: "20px",
+              paddingLeft: "5px",
+              paddingRight: "5px",
+              borderRadius: "10px",
+            }),
+            option: (base) => ({
+              ...base,
+              borderRadius: "10px",
+              backgroundColor: "",
+              color: "black",
+              ":hover": { backgroundColor: "#540000", color: "white" },
+            }),
+          }}
+        />
+      </div>
+    </aside>
   );
 };
 

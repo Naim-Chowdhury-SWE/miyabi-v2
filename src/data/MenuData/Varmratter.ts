@@ -8,7 +8,7 @@ export const varmratterMenu = (t: TFunction): Dish[] => [
     dishName: [t("yakiniku.name")],
     description: [t("yakiniku.description")],
     type: [t("size.small"), t("size.medium"), t("size.large")],
-    price: [89, 129, 149],
+    price: [99, 139, 159],
     image: [images.Yakiniku],
   },
   {
@@ -16,7 +16,7 @@ export const varmratterMenu = (t: TFunction): Dish[] => [
     dishName: [t("yakitori.name")],
     description: [t("yakitori.description")],
     type: [t("size.small"), t("size.medium"), t("size.large")],
-    price: [89, 129, 149],
+    price: [99, 129, 149],
     image: [images.Yakitori],
   },
   {
@@ -24,7 +24,7 @@ export const varmratterMenu = (t: TFunction): Dish[] => [
     dishName: [t("yakinikuSushi.name")],
     description: [t("yakinikuSushi.description")],
     type: [],
-    price: [159],
+    price: [169],
     image: [images.YakinikuSushi],
   },
   {
@@ -60,7 +60,7 @@ export const varmratterMenu = (t: TFunction): Dish[] => [
     dishName: [t("gyoza.name")],
     description: [t("gyoza.description")],
     type: [6 + t("pieces"), 8 + t("pieces")],
-    price: [125, 139],
+    price: [129, 139],
     image: [images.Gyoza],
   },
   {
@@ -100,7 +100,7 @@ export const varmratterMenu = (t: TFunction): Dish[] => [
     dishName: [t("karaage.name")],
     description: [t("karaage.description")],
     type: [t("size.small"), t("size.medium")],
-    price: [89, 149],
+    price: [99, 149],
     image: [images.Karaage],
   },
   {
