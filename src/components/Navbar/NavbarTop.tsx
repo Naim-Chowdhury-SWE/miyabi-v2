@@ -11,11 +11,6 @@ const Navbar = () => {
   const [isContactDropdownOpen, setIsContactDropdownOpen] = useState(false);
   const [isDropdownEnabled, setIsDropdownEnabled] = useState(true);
 
-  const toggleDropdown = () => {
-    setIsContactDropdownOpen(false);
-    setIsDropdownOpen((prevState) => !prevState);
-  };
-
   const toggleContactDropdown = () => {
     setIsDropdownOpen(false);
     setIsContactDropdownOpen((prevState) => !prevState);
@@ -63,51 +58,6 @@ const Navbar = () => {
         alt="Miyabi Logo"
         className="h-10 lg:h-16 m-auto float-left"
       />
-
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className={`h-10 lg:m-1 p-auto float-right lg:hidden cursor-pointer rounded-md hover:bg-red-700`}
-        onMouseEnter={(e) =>
-          e.currentTarget
-            .querySelectorAll("path")
-            .forEach((path) => path.setAttribute("stroke", "#fff"))
-        }
-        onMouseLeave={(e) =>
-          e.currentTarget
-            .querySelectorAll("path")
-            .forEach((path) => path.setAttribute("stroke", "#000"))
-        }
-        onClick={toggleDropdown}
-      >
-        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            d="M4 18L20 18"
-            stroke="#000000"
-            strokeWidth="2"
-            strokeLinecap="round"
-          ></path>
-          <path
-            d="M4 12L20 12"
-            stroke="#000000"
-            strokeWidth="2"
-            strokeLinecap="round"
-          ></path>
-          <path
-            d="M4 6L20 6"
-            stroke="#000000"
-            strokeWidth="2"
-            strokeLinecap="round"
-          ></path>
-        </g>
-      </svg>
 
       <div className="justify-center hidden lg:flex p-1">
         <ul className="flex items-center mx-4 text-black font-bold">

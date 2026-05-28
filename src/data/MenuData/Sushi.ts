@@ -104,7 +104,7 @@ export const sushiMenu = (t: TFunction): Dish[] => [
     dishName: [t("grillSalmon.name")],
     description: [t("grillSalmon.description")],
     type: [8 + t("pieces"), 10 + t("pieces"), 12 + t("pieces")],
-    price: [135, 155, 175],
+    price: [149, 169, 189],
     image: [images.GrillLaxSushi],
   },
   {

@@ -19,8 +19,8 @@ const CTA = () => {
     });
   };
   return (
-    <section>
-      <div className="flex flex-row text-xs gap-4 md:gap-10 my-20 md:text-lg justify-center font-chowfun font-semibold tracking-wider">
+    <section className="my-8 flex flex-col gap-8">
+      <div className="flex flex-row text-xs gap-4 md:gap-10 md:text-lg justify-center font-chowfun font-semibold tracking-wider">
         <a
           href="https://app.fasterorder.se/menu/sv/37"
           target="_blank"
@@ -41,7 +41,7 @@ const CTA = () => {
           {t("homeDelivery")}
         </a>
       </div>
-      <div className="text-white text-center font-cormorant font-bold text-xl -mt-16">
+      <div className="text-white text-center font-cormorant font-bold text-xl">
         {t("scrollDown")}
       </div>
     </section>
