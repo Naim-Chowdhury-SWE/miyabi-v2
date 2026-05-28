@@ -8,7 +8,7 @@ export const pokebowlMenu = (t: TFunction): Dish[] => [
     dishName: [t("salmonTuna")],
     description: [t("description")],
     type: [],
-    price: [129],
+    price: [159],
     image: [images.PokebowlLax],
   },
   {
@@ -16,7 +16,7 @@ export const pokebowlMenu = (t: TFunction): Dish[] => [
     dishName: [t("shrimp")],
     description: [t("description")],
     type: [],
-    price: [129],
+    price: [159],
     image: [images.PokebowlRaka],
   },
   {
@@ -24,7 +24,7 @@ export const pokebowlMenu = (t: TFunction): Dish[] => [
     dishName: [t("chicken")],
     description: [t("description")],
     type: [],
-    price: [129],
+    price: [159],
     image: [images.PokebowlKyckling],
   },
   {
@@ -32,7 +32,7 @@ export const pokebowlMenu = (t: TFunction): Dish[] => [
     dishName: [t("tofu")],
     description: [t("description")],
     type: [],
-    price: [129],
+    price: [159],
     image: [images.PokebowlTofu],
   },
 ];
