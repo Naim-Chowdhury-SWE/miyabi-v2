@@ -6,6 +6,7 @@ import missingImage from "../assets/placeholders/MissingImage.webp";
 
 import RisnudlarEntrecote from "../assets/food/lunch/RisnudlarEntrecote.webp";
 import KycklingJapanskCurry from "../assets/food/lunch/KycklingJapanskCurry.webp";
+import Shakefry from "../assets/food/lunch/Shakefry.webp";
 /* Sushi */
 
 import BlandadSushi7 from "../assets/food/sushi/BlandadSushiLiten.webp";
@@ -142,6 +143,7 @@ interface imageType {
   missingImage: string;
   RisnudlarEntrecote: string;
   KycklingJapanskCurry: string;
+  Shakefry: string;
   PappaLyx: string;
   BibimbapEntrecote: string;
   GrillLaxSushi: string;
@@ -260,6 +262,7 @@ const images: imageType = {
   //Lunch
   RisnudlarEntrecote,
   KycklingJapanskCurry,
+  Shakefry,
   //Sushi
   BlandadSushi7,
   BlandadSushi8,

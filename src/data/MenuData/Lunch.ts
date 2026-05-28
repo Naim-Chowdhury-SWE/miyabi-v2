@@ -9,7 +9,7 @@ export const lunchMenu = (t: TFunction): Dish[] => [
     description: [t("dish1")],
     type: [],
     price: [129],
-    image: [images.RisnudlarEntrecote],
+    image: [images.Yakisoba],
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const lunchMenu = (t: TFunction): Dish[] => [
     description: [t("dish2")],
     type: [],
     price: [129],
-    image: [images.WokadKyckling],
+    image: [images.Shakefry],
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const lunchMenu = (t: TFunction): Dish[] => [
     description: [t("dish3")],
     type: [],
     price: [129],
-    image: [images.KycklingJapanskCurry],
+    image: [images.WokadKyckling],
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const lunchMenu = (t: TFunction): Dish[] => [
     description: [t("dish4")],
     type: [],
     price: [129],
-    image: [images.Yakisoba],
+    image: [images.Karaage],
   },
   {
     id: 5,
@@ -41,6 +41,6 @@ export const lunchMenu = (t: TFunction): Dish[] => [
     description: [t("dish5")],
     type: [],
     price: [129],
-    image: [images.Karaage],
+    image: [images.KycklingJapanskCurry],
   },
 ];

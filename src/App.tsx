@@ -18,7 +18,7 @@ ReactGA.initialize("G-8H3293Y63H", {
 function App() {
   return (
     <>
-      <div className="pt-28 lg:pt-40">
+      <div className="pt-24 lg:pt-32">
         <LanguageSwitcher />
         <NavbarTop />
         <Header />
